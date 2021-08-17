@@ -1,0 +1,25 @@
+GET http://localhost:5000/words
+
+###
+
+GET http://localhost:5000/words/6114879914a7ae5cac664231
+
+###
+POST http://localhost:5000/words
+Content-Type: application/json
+
+{
+    "name": "Bitch"
+}
+
+###
+
+DELETE http://localhost:5000/words/6114879914a7ae5cac664231
+
+###
+PATCH http://localhost:5000/words/6114874a14a7ae5cac66422d
+Content-Type: application/json
+
+{
+    "name": "Fuck"
+}
